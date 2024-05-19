@@ -222,9 +222,9 @@ elif selection == None or selection == "육아일기":
         import requests
         import pandas as pd
         
-        url = 'https://raw.githubusercontent.com/annayjs/healthyingkid/main/child_info.csv'  # GitHub에 있는 CSV 파일의 URL
+        url = 'https://raw.githubusercontent.com/anna171800/Healthy-ing-Kids/main/child_info.csv'  # GitHub에 있는 CSV 파일의 URL
         response = requests.get(url)
-        #open('child_info.csv', 'wb').write(response.content)
+        open('child_info.csv', 'wb').write(response.content)
 
         child_data = pd.read_csv('child_info.csv')
         child_name_list=child_data['name'].to_list()
