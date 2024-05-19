@@ -4,7 +4,7 @@ import sqlite3
 import datetime
 ###################################################################################################
 # 0. page config & title
-st.set_page_config(layout="centered", page_title="헬싱키(Healthying-Kids) 프로토타입", page_icon="🚀")
+st.set_page_config(layout="centered", page_title="헬싱키(Healthy-ing Kids) 프로토타입", page_icon="🚀")
 
 from streamlit_option_menu import option_menu
 selected3 = option_menu(None, ["육아일기", "닥터 아이봇",  "소아병원 찾기"], 
