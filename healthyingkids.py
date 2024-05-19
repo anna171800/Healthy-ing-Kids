@@ -319,7 +319,7 @@ elif selection == "닥터 아이봇":
     import requests
     import pandas as pd
     
-    url = 'https://raw.githubusercontent.com/annayjs/healthyingkid/main/child_info.csv'  # GitHub에 있는 CSV 파일의 URL
+    url = 'https://raw.githubusercontent.com/anna171800/Healthy-ing-Kids/main/child_info.csv'  # GitHub에 있는 CSV 파일의 URL
     response = requests.get(url)
     open('child_info.csv', 'wb').write(response.content)
 
